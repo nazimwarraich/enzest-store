@@ -1,0 +1,32 @@
+
+backend:
+  name: github
+  repo: YOUR_USERNAME/enzest-store # update this
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "products"
+    label: "Products"
+    folder: "content/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Price", name: "price", widget: "number"}
+      - {label: "Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"}}
+      - {label: "Sizes", name: "sizes", widget: "list", required: false}
+      - {label: "Stock", name: "stock", widget: "number"}
+      - {label: "Description", name: "description", widget: "text"}
+
+  - name: "announcements"
+    label: "Announcements"
+    folder: "content/announcements"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "text"}
