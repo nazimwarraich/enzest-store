@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "http://enzest.com/*"
+  to = "https://www.enzest.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://enzest.com/*"
+  to = "https://www.enzest.com/:splat"
+  status = 301
+  force = true
