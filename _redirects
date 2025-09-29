@@ -1,1 +1,6 @@
-http://www.enzest.com/*  https://www.enzest.com/:splat  301!
+# Redirect HTTP to HTTPS
+http://www.enzest.com/*   https://www.enzest.com/:splat   301!
+
+# Single Page App support (for all routes)
+# This ensures any URL loads index.html so your store works
+/*    /index.html   200
