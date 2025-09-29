@@ -1,0 +1,191 @@
+[
+    {
+        "id": 1,
+        "title": "Classic White Shirt",
+        "category": "Shirts",
+        "price": 1999,
+        "sizes": {
+            "S": {
+                "price": 1999,
+                "stock": 12
+            },
+            "M": {
+                "price": 1999,
+                "stock": 20
+            },
+            "L": {
+                "price": 2099,
+                "stock": 15
+            },
+            "XL": {
+                "price": 2099,
+                "stock": 10
+            }
+        },
+        "images": [
+            "https://via.placeholder.com/600x800?text=White+Shirt+Front",
+            "https://via.placeholder.com/600x800?text=White+Shirt+Back"
+        ],
+        "badges": [
+            "Best Seller",
+            "Trusted Quality"
+        ],
+        "reviews": [
+            {
+                "user": "Ahmed - Lahore",
+                "rating": 5,
+                "text": "Excellent fitting and fabric!"
+            },
+            {
+                "user": "Sara - Karachi",
+                "rating": 4,
+                "text": "Good quality, but delivery was a bit late."
+            }
+        ],
+        "description": "A premium cotton white shirt perfect for formal and semi-formal occasions."
+    },
+    {
+        "id": 2,
+        "title": "Slim Fit Black Trousers",
+        "category": "Trousers",
+        "price": 2499,
+        "sizes": {
+            "30": {
+                "price": 2499,
+                "stock": 8
+            },
+            "32": {
+                "price": 2499,
+                "stock": 14
+            },
+            "34": {
+                "price": 2599,
+                "stock": 12
+            },
+            "36": {
+                "price": 2599,
+                "stock": 6
+            }
+        },
+        "images": [
+            "https://via.placeholder.com/600x800?text=Black+Trousers+Front",
+            "https://via.placeholder.com/600x800?text=Black+Trousers+Back"
+        ],
+        "badges": [
+            "Popular Choice"
+        ],
+        "reviews": [
+            {
+                "user": "Bilal - Islamabad",
+                "rating": 5,
+                "text": "Perfect fit and very comfortable."
+            }
+        ],
+        "description": "Stylish slim-fit trousers made from stretchable fabric, ideal for daily wear."
+    },
+    {
+        "id": 3,
+        "title": "Casual Blue T-Shirt",
+        "category": "T-Shirts",
+        "price": 1499,
+        "sizes": {
+            "S": {
+                "price": 1499,
+                "stock": 18
+            },
+            "M": {
+                "price": 1499,
+                "stock": 22
+            },
+            "L": {
+                "price": 1599,
+                "stock": 15
+            }
+        },
+        "images": [
+            "https://via.placeholder.com/600x800?text=Blue+Tshirt+Front",
+            "https://via.placeholder.com/600x800?text=Blue+Tshirt+Back"
+        ],
+        "badges": [
+            "Trending"
+        ],
+        "reviews": [
+            {
+                "user": "Hassan - Multan",
+                "rating": 4,
+                "text": "Nice color, fabric is soft."
+            }
+        ],
+        "description": "Casual round-neck blue t-shirt made from breathable cotton fabric."
+    },
+    {
+        "id": 4,
+        "title": "Winter Jacket Grey",
+        "category": "Jackets",
+        "price": 4999,
+        "sizes": {
+            "M": {
+                "price": 4999,
+                "stock": 10
+            },
+            "L": {
+                "price": 5099,
+                "stock": 8
+            },
+            "XL": {
+                "price": 5199,
+                "stock": 5
+            }
+        },
+        "images": [
+            "https://via.placeholder.com/600x800?text=Grey+Jacket+Front",
+            "https://via.placeholder.com/600x800?text=Grey+Jacket+Back"
+        ],
+        "badges": [
+            "Limited Stock"
+        ],
+        "reviews": [
+            {
+                "user": "Zain - Peshawar",
+                "rating": 5,
+                "text": "Very warm and stylish."
+            }
+        ],
+        "description": "High-quality grey winter jacket with inner lining for extra warmth."
+    },
+    {
+        "id": 5,
+        "title": "Traditional Kurta White",
+        "category": "Kurta",
+        "price": 2999,
+        "sizes": {
+            "M": {
+                "price": 2999,
+                "stock": 12
+            },
+            "L": {
+                "price": 3099,
+                "stock": 9
+            },
+            "XL": {
+                "price": 3199,
+                "stock": 7
+            }
+        },
+        "images": [
+            "https://via.placeholder.com/600x800?text=White+Kurta+Front",
+            "https://via.placeholder.com/600x800?text=White+Kurta+Back"
+        ],
+        "badges": [
+            "Cultural Favorite"
+        ],
+        "reviews": [
+            {
+                "user": "Ali - Faisalabad",
+                "rating": 5,
+                "text": "Perfect for Eid and family gatherings."
+            }
+        ],
+        "description": "Elegant white cotton kurta with traditional stitching patterns."
+    }
+]
